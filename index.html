@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ubi Cilembu Amora</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#fff8ef;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(90deg,#8b4513,#d2691e);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+}
+
+.hero{
+    background:url('https://images.unsplash.com/photo-1603048719539-9ecb4d4d9b1f?q=80&w=1200&auto=format&fit=crop') center/cover;
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    position:relative;
+}
+
+.hero::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.5);
+}
+
+.hero-content{
+    position:relative;
+    z-index:1;
+    color:white;
+    max-width:700px;
+    padding:20px;
+}
+
+.hero-content h2{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    margin-bottom:30px;
+}
+
+.card h2{
+    color:#b85c00;
+    margin-bottom:20px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:20px;
+}
+
+.feature-box{
+    background:#fff3e6;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.feature-box h3{
+    color:#d2691e;
+    margin-bottom:10px;
+}
+
+.price{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.price-box{
+    padding:30px;
+    border-radius:15px;
+    color:white;
+    text-align:center;
+}
+
+.masak{
+    background:#ff9800;
+}
+
+.mentah{
+    background:#8bc34a;
+}
+
+.price-box h2{
+    font-size:55px;
+    margin:15px 0;
+}
+
+.address{
+    background:#fff3e6;
+    padding:20px;
+    border-radius:15px;
+    margin-top:20px;
+}
+
+.address li{
+    margin-bottom:10px;
+}
+
+.cta{
+    background:#8b4513;
+    color:white;
+    padding:40px 20px;
+    border-radius:15px;
+    text-align:center;
+    margin-top:30px;
+}
+
+.cta a{
+    display:inline-block;
+    margin-top:20px;
+    background:#25d366;
+    color:white;
+    padding:15px 30px;
+    border-radius:50px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+}
+
+footer{
+    background:#222;
+    color:#ccc;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>UBI CILEMBU AMORA</h1>
+    <p>Manis Alami • Lumer • Lembut</p>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h2>Menerima Pesanan Ubi Cilembu</h2>
+        <p>Siap antar seluruh Kota Padang • Ongkir menyesuaikan</p>
+    </div>
+</section>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Kenapa Pilih Ubi Cilembu Amora?</h2>
+
+        <div class="features">
+            <div class="feature-box">
+                <h3>100% Ubi Pilihan</h3>
+                <p>Kualitas terbaik dan segar.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>Manis Alami</h3>
+                <p>Tanpa tambahan pemanis.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>Lembut & Lumer</h3>
+                <p>Cocok disantap kapan saja.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>Siap Antar</h3>
+                <p>Melayani seluruh Kota Padang.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Harga</h2>
+
+        <div class="price">
+
+            <div class="price-box masak">
+                <h3>UBI MASAK</h3>
+                <h2>33K</h2>
+                <p>Siap santap • Manis & lembut</p>
+            </div>
+
+            <div class="price-box mentah">
+                <h3>UBI MENTAH</h3>
+                <h2>27K</h2>
+                <p>Kualitas terbaik pilihan.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Tersedia di:</h2>
+
+        <ul class="address">
+            <li>📍 Jl. Aru No.13 Lubuk Begalung</li>
+            <li>📍 Jl. Lolong No.80</li>
+            <li>📍 Jl. Raden Saleh (sebelah pusat buah raden saleh)</li>
+        </ul>
+    </div>
+
+    <div class="cta">
+        <h2>Pesan Sekarang!</h2>
+        <p>Siap antar seluruh Kota Padang • Ongkir menyesuaikan</p>
+
+        <a href="https://wa.me/6288277492983">
+            Chat WhatsApp
+        </a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Ubi Cilembu Amora</p>
+</footer>
+
+</body>
+</html>
